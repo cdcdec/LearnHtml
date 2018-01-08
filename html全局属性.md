@@ -8,11 +8,11 @@
 
 ```
 * class属性,规定元素的类的名称。如需为一个元素规定多个类，用空格分隔类名。
-	>class属性不能在以下HTML元素中使用:base,head,html,meta,param,script,style以及title.类名不能以数字开头！只有InternetExplorer支持这种做法
+  >class属性不能在以下HTML元素中使用:base,head,html,meta,param,script,style以及title.类名不能以数字开头！只有InternetExplorer支持这种做法
 * contenteditable属性规定元素内容是否可编辑，如果元素未设置contenteditable属性，那么元素会从其父元素继承该属性。true表示可编辑,false表示不可编辑。
 * contextmenu,规定div元素的上下文菜单。上下文菜单会在用户右键点击元素时出现.目前只有Firefox支持contextmenu属性。contextmenu属性的值是要打开的menu元素的id。
 * 使用data-*属性来嵌入自定义数据,data-*属性用于存储页面或应用程序的私有自定义数据,data-*属性赋予我们在所有HTML 元素上嵌入自定义data属性的能力,存储的(自定义)数据能够被页面的JavaScript 中利用，以创建更好的用户体验(不进行Ajax调用或服务器端数据库查询),data-* 属性包括两部分:1)属性名不应该包含任何大写字母，并且在前缀"data-"之后必须有至少一个字符;
-2)属性值可以是任意字符串;用户代理会完全忽略前缀为"data-"的自定义属性。
+  2)属性值可以是任意字符串;用户代理会完全忽略前缀为"data-"的自定义属性。
 ```txt
 <li data-animal-type="bird">Owl</li>
 ```
